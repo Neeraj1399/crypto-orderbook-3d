@@ -2,6 +2,32 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Prerequisites:
+Before you can run the project, you need to have a few things installed on your system:
+
+Node.js and npm (Node Package Manager): Node.js is a JavaScript runtime, and npm is its default package manager. React projects heavily rely on these.
+
+How to install:
+
+Recommended: Go to the official Node.js website: https://nodejs.org/. Download and run the LTS (Long Term Support) installer for your operating system. This will install both Node.js and npm.
+
+Verify installation: Open your terminal/command prompt and run:
+node -v
+npm -v
+
+
+Git: You'll need Git to clone the project
+
+add the below command in our bash terminal
+git remote add origin git@github.com:Neeraj1399/crypto-orderbook-3d.git
+cd crypto-orderbook-3d
+
+Install Dependencies
+npm install
+
+Your project has external libraries and packages it relies on. You need to install these.
+
+Bash
 First, run the development server:
 
 ```bash
